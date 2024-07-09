@@ -14,16 +14,24 @@ else if(age<=65){
 console.log("they need to pay $6")
 }
 
-let colour = "red"
+// let colour = "red"
 
-if(hour<12){
-    console.log("Good morning")
-}
-else if(hour<18){
-    console.log("good afternoon")
-}
-else if(hour>18){
-    console.log('good night')
-}
+// if(hour<12){
+//     console.log("Good morning")
+// }
+// else if(hour<18){
+//     console.log("good afternoon")
+// }
+// else if(hour>18){
+//     console.log('good night')
+// }
 
+let num = 101
+
+if(num<100){
+    console.log("it is between 1 and 100")
+}
+else if(num>100){
+    console.log("the num is not between 1 and 100")
+}
     
