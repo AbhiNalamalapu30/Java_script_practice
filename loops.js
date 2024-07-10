@@ -35,11 +35,21 @@ for (let i = 0; i < 101; i++) {
      //sum = sum+i
   }
   console.log(sum)
-  //this is used to sum up the numbers
+  // this is used to sum up the numbers
 
-//   i = 4
-//   sum=3//before condition
-//   4<101--->true
-//   sum = sum + 4;
+  // i = 4
+  // sum=3//before condition
+  // 4<101--->true
+  // sum = sum + 4;
 
-//   sum = 7
+  // sum = 7
+
+
+for(let i=0;i<11;i--){
+  console.log(i)
+  if(i==-5)
+    break
+  
+
+}
+// this is how to put a break point in the code
