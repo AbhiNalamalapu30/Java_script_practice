@@ -1,4 +1,4 @@
-let num = 12
+let num = 17
 if (num%2===0){
     console.log("it is even")
 }

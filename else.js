@@ -35,3 +35,11 @@ else if(num>100){
     console.log("the num is not between 1 and 100")
 }
     
+
+let age = 12;
+
+if (age < 13) {
+  console.log("Child");
+} else {
+  console.log("Teenager");
+}
