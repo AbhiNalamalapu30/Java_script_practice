@@ -1,19 +1,19 @@
 
-// let age = 5
-// let ticket
+let age = 5
+let ticket
 
-// if(age<12){
-// console.log("they need to pay $5")
-// }
-// else if(age>=12&&age<=17){
-//     console.log("they need to pay $7")
-// }
-// else if(age<=18||age<=64){
-//     console.log("they need to pay $10")
-// }
-// else if(age<=65){
-// console.log("they need to pay $6")
-// }
+if(age<12){
+console.log("they need to pay $5")
+}
+else if(age>=12&&age<=17){
+    console.log("they need to pay $7")
+}
+else if(age<=18||age<=64){
+    console.log("they need to pay $10")
+}
+else if(age<=65){
+console.log("they need to pay $6")
+}
 
 
 let num = 3

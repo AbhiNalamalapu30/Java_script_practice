@@ -14,17 +14,17 @@ else if(age<=65){
 console.log("they need to pay $6")
 }
 
-// let colour = "red"
+let hour = "red"
 
-// if(hour<12){
-//     console.log("Good morning")
-// }
-// else if(hour<18){
-//     console.log("good afternoon")
-// }
-// else if(hour>18){
-//     console.log('good night')
-// }
+if(hour<12){
+    console.log("Good morning")
+}
+else if(hour<18){
+    console.log("good afternoon")
+}
+else if(hour>18){
+    console.log('good night')
+}
 
 let num = 101
 

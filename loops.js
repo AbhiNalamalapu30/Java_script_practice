@@ -32,6 +32,14 @@ for (let i = 0; i < 101; i++) {
   let sum = 0
   for ( let i = 1;i < 101;i++){
      sum +=i
-     
+     //sum = sum+i
   }
   console.log(sum)
+  //this is used to sum up the numbers
+
+//   i = 4
+//   sum=3//before condition
+//   4<101--->true
+//   sum = sum + 4;
+
+//   sum = 7
