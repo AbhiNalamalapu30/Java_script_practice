@@ -36,10 +36,10 @@ else if(num>100){
 }
     
 
-let age = 12;
+// let age = 12;
 
-if (age < 13) {
-  console.log("Child");
-} else {
-  console.log("Teenager");
-}
+// if (age < 13) {
+//   console.log("Child");
+// } else {
+//   console.log("Teenager");
+// }
