@@ -54,11 +54,18 @@
 // }
 // this is how to put a break point in the code
 
-let sum = 0
-let i = 1
-while(sum<=10){
-sum = sum+1;
-i++
+let i = 0
+while(i<49){
+i=i+2
+console.log(i)
 }
-console.log(sum)
+var n = 352, reverse = 0, remainder;
+
+while (n>0) {
+    remainder = n%10;
+    reverse = reverse * 10 + remainder;
+    n = n / 10;
+}
+
+console.log(reverse);
 
