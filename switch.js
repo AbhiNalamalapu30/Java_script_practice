@@ -1,4 +1,4 @@
-let flavour = "Butterscotch";
+let flavour = "Vanilla";
 
 switch (flavour) {
   case "Vanilla":
@@ -13,7 +13,7 @@ switch (flavour) {
     console.log("No flavour detected!");
 }
 
-let colour = "red"
+let colour;
 
 switch (colour){
     case "red":
@@ -25,14 +25,14 @@ switch (colour){
     break;
 
 case "green":
- console.log('the colour is hreen')
+ console.log('the colour is Green')
     break;
 
     default:
         console.log('it is an unknown colour')
 }
 
-let subject = 'science'
+let subject;
 
 switch (subject){
 case "history":
@@ -47,6 +47,8 @@ case 'science':
    console.log('you lean about biology, chemistry, physics, and a lot more')
    break;
 
+default :
+console.log("subject unkown")
 }
 
 

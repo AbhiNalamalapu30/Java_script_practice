@@ -1,5 +1,4 @@
 let age = 14
-let ticket
 
 if(age<12){
 console.log("they need to pay $5")
@@ -14,7 +13,7 @@ else if(age<=65){
 console.log("they need to pay $6")
 }
 
-let hour = "red"
+let hour = "3"
 
 if(hour<12){
     console.log("Good morning")
@@ -43,3 +42,4 @@ else if(num>100){
 // } else {
 //   console.log("Teenager");
 // }
+
