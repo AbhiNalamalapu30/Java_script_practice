@@ -12,7 +12,7 @@ console.log(i)
 // the way to get odd number
 
 
-for (let i = 0; i < 11; i++) {
+for (let i = 0; i < 6; i++) {
     console.log(i);
   }
   //basic loop
@@ -69,3 +69,7 @@ while (n>0) {
 
 console.log(reverse);
 
+for (let i=5; i>=1; i--) {
+  console.log(i);
+}
+//revrse loop
