@@ -43,3 +43,10 @@ else if(num>100){
 //   console.log("Teenager");
 // }
 
+let checker = "mom"
+if(checker==checker.split('').reverse().join(''))
+console.log('it is parnorm')
+else{
+console.log('it is not')
+}
+//parndorm checker
