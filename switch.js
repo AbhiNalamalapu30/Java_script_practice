@@ -51,6 +51,8 @@ default :
 console.log("subject unkown")
 }
 
+let job = 'police'
+
 
 
 

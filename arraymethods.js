@@ -1,5 +1,5 @@
 let tasks = []
-tasks.push('do laundry','buy groceries','clean room')
+tasks.push('do laundry','buy groceries','clean room')l
 tasks.unshift('finish homework')
 console.log(tasks)
 
@@ -10,24 +10,25 @@ let arr8 = ['1','3','30','2']
 let results = arr8.map((item => item*3))
 console.log(results)
 
+
 // // // map method
 
 
-// // let array =[9,6,8,4,2,1]
-// // let a =[]
-// // for(let i = array.length - 1; i >=0; i--) {
-// //     let b= array[i]
-// //    a.push(b)
+let array =[9,6,8,4,2,1]
+let a =[]
+for(let i = array.length - 1; i >=0; i--) {
+    let b= array[i]
+   a.push(b)
 
 
-// // }
+}
 
 
-// // console.log(a)
-// // // revrsed array loop
+console.log(a)
+// revrsed array loop
 
 let arr1 = ['banana','apple','orange','watermelon', 'grapes']
-console.log(arr1.slice(1,3));
+console.log(arr1.slice(2,3));
 console.log(arr1.slice(3,5));
 //slice method
 
@@ -49,8 +50,9 @@ console.log(result)
 
 
 
-let numbers = [4, 2, 5, 1, 3]
-numbers.sort((a, b) => a - b)
+let numbers = [4, 20, 51, 19, 32]
+console.log(numbers.sort((a, b) => b - a))
+console.log(numbers[1])
 //sort
 
 let fruits = ['apple', 'banana', 'mango', 'orange']
@@ -67,12 +69,12 @@ console.log(arr)
 //splice
 
 
-const num =  [8, 2, 3, 9, 5]
-console.log(num.reduce((a,b)=>a*b))
+const num1 =  [8, 2, 3, 9, 5]
+console.log(num1.reduce((a,b)=>a*b))
 //reduce
 
 const fill = new Array(10)
-console.log(fill.fill(1,0,5))
+console.log(fill.fill(1,4))
 //fill
 
 let even = [2, 4, 6, 12, 14, 16]
@@ -114,6 +116,7 @@ num.reverse();
 console.log(num)
 //reverse
 
-let fruits = ["apple", "banana", "mango", "orange", "pineapple"];
-console.log(fruits.includes('watermelon'))
+let fruit1 = ["apple", "banana", "mango", "orange", "pineapple"];
+console.log(fruit1.includes('apple'))
 //includes
+     

@@ -50,3 +50,14 @@ else{
 console.log('it is not')
 }
 //parndorm checker
+
+
+let person = '300'
+
+if(person<12){
+    console.log('they need to play skibidi')
+
+}
+else{
+    console.log('they need to pay nothing')
+}
