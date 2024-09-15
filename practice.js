@@ -1,32 +1,29 @@
-let i=1 
-while (i<=100){
-  if(i%2==0){
-  console.log(i)
-  }
-  i++
+function student(name,grade){
+  this.name=name
+  this.grade=grade
+}
+student.prototype.details=function(){
+  console.log(`hello, my name is ${this.name}`,`I am in ${this.grade}`)
+}
+let student1 = new student('Abhi','9th')
+console.log(student1)
+console.log(student1.details())
+
+let student2 = new student('ashrith','7th')
+console.log(student2)
+console.log(student2.details())
+
+class Worker{
+constructor(age,job){
+  this.age=age
+  this.job=job
+}
+introducethatlogs(){
+ return`${this.age}${this.job}`
+}
 }
 
-
-//Even numbers
-
-let e=0
-while (e<=100){
-  if(e%2==1){
-  console.log(e)
-  }
-  e++
-}
-// odd numbers
-
-let f,  sum = 0
-f = 1
-while (f<=10){
-  
-  if(f%2==0){
-    sum= sum + f
-  }
-
-  f++
-}
-console.log(sum)
+let worker1=new Worker('30 ','no_job')
+console.log(worker1)
+console.log(worker1.introducethatlogs())
 
